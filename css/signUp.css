@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.whole_page{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    padding: 0px 34% ;
+}
+.box_1{
+    background-color: blueviolet ;
+    height: 100%;
+    padding: 15% 0px;
+}
+.box_2{
+    background-color: burlywood;
+    height: 100%;
+    padding: 20px;
+
+}
+.box_3{
+    background-color: chartreuse;
+    height: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.box_4{
+    background-color: coral;
+    height: 100%;
+}
+@media(max-width: 800px) {
+  .whole_page {
+    padding: 0%;
+  }
+  .box_1{
+      padding: 30px 20%;
+  }
+}
+h1{
+    background-color:khaki;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}

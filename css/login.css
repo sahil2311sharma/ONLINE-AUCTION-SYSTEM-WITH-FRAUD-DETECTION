@@ -1,0 +1,324 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.block_1{
+    background-color:turquoise;
+}
+.background-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.container{
+    position:relative;
+    background-color: transparent;
+    margin: 0px 50px;
+    padding: 50px;
+    height: 754px;
+}
+.box-of-login{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 0px 19%;
+}
+.content{
+    background-color: transparent;
+    height: 100%;
+    padding: 5% 0px;
+}
+.final-box{
+    background-color: transparent;
+    height: 100%;
+    padding: 5% 5%;
+    
+}
+.inner-most{
+    background-color: bisque;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 15px 15px 30px red,-15px -15px 30px red, -15px 15px 30px red,15px -15px 30px red;
+    
+}
+.left-side-welcome{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+.welcome-back{
+    font-size: 250%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+p{
+    margin-top: 0%;
+    margin-bottom: 25%;
+    font-size: 20px;
+}
+
+.right-side-login{
+    background-color: darkolivegreen;
+    text-align: center;
+    display:inline;
+}
+.validate-form{
+    background-color: violet;    
+    top: 50px;
+    height: 100%;
+    padding-top: 10%;
+    padding:20px;
+}
+.login-to-continue{
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding :10px;
+    border-radius: 10px;
+}
+.validate-form-blocks{
+    background-color: transparent;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.validate-form-blocks-1{
+    background-color:transparent;
+    margin: 0px 5px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-2{
+    background-color:transparent;
+    margin: 0px 5px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-3{
+    background-color:transparent;
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-4{
+    background-color: transparent;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+.emaillll{
+    margin-top: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.emaillll:hover{
+    background-color: white;
+}
+.emaillll:hover{
+    transition: 0.5s;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px,chartreuse -10px 10px 10px, chartreuse 10px -10px 10px ;
+}
+.passwordddd{
+    margin-top: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.passwordddd:hover{
+    background-color: white;
+}
+.passwordddd:hover{
+    transition: 0.5s;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px,chartreuse -10px 10px 10px, chartreuse 10px -10px 10px ;
+}
+.submitt-button{
+    background-color: darkred;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.submitt-button:hover{
+    transition: .5s;
+    transform:translate(-5px,-5px);
+    box-shadow: brown 20px 20px 20px;
+}
+.submitt-button:active{
+    background-color:fuchsia;
+}
+.validate-form-blocks-5{
+    background: mintcream;
+    display:inline;
+    padding: 5px 10px;
+    margin: 3px 0px;
+    border-radius: 20pc;
+    font-style: italic;
+}
+
+
+/*
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.block_1{
+    background-color:transparent;
+}
+.background-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.container{
+    position:relative;
+    background-color: transparent;
+    margin: 0px 50px;
+    padding: 50px;
+    height: 754px;
+}
+.box-of-login{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    padding: 0px 19%;
+}
+.content{
+    background-color: transparent;
+    height: 100%;
+    padding: 5% 0px;
+}
+.final-box{
+    background-color: transparent;
+    height: 100%;
+    padding: 5% 5%;
+}
+.inner-most{
+    background-color: transparent;
+    height: 100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0 14px 28px red, 
+			0 10px 10px violet;
+    box-shadow: 15px 15px 30px red,-15px -15px 30px red, -15px 15px 30px red,15px -15px 30px red;
+    border-radius: 20px;
+}
+.left-side-welcome{
+    background-color: transparent;
+    text-align: center;
+    padding: 20px;
+}
+.welcome-back{
+    font-size: 250%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+p{
+    margin-top: 0%;
+    margin-bottom: 25%;
+    font-size: 20px;
+}
+
+.right-side-login{
+    background-color: transparent;
+    text-align: center;
+    display:inline;
+}
+.validate-form{
+    background-color: violet;    
+    top: 50px;
+    height: 100%;
+    padding-top: 10%;
+    padding:20px;
+    border-radius: 20px;
+}
+.login-to-continue{
+    background-color: blue;
+    color: white;
+    font-family: monospace;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    padding :10px;
+    border-radius: 10px;
+}
+.validate-form-blocks{
+    background-color: transparent;
+    padding: 20px 0px;
+    border-radius: 20px;
+}
+.validate-form-blocks-1{
+    background-color:transparent;
+    margin: 0px 5px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-2{
+    background-color:transparent;
+    margin: 0px 5px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-3{
+    background-color:transparent(132, 218, 82);
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+.validate-form-blocks-4{
+    background-color: transparent;
+    margin: 0px 5px;
+    padding: 10px 0px;
+}
+.emaillll{
+    margin-top: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.emaillll:hover{
+    background-color: white;
+}
+.emaillll:active{
+    transition: 0.5s;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px,chartreuse -10px 10px 10px, chartreuse 10px -10px 10px ;
+}
+.passwordddd{
+    margin-top: 10px;
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.passwordddd:hover{
+    background-color: white;
+}
+.passwordddd:active{
+    transition: 0.5s;
+    box-shadow: chartreuse 10px 10px 10px, chartreuse -10px -10px 10px,chartreuse -10px 10px 10px, chartreuse 10px -10px 10px ;
+}
+.submitt-button{
+    background-color: darkred;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.submitt-button:hover{
+    background-color:fuchsia;
+    transition: .5s;
+    transform:translate(-10px,-10px);
+}
+
+*/

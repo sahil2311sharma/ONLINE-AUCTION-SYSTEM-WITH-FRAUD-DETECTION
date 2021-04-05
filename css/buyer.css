@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+    
+}
+.navbar-links li a{
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+.navbar-links li:hover{
+    background-color: #555;
+    border-radius: 8pc;
+}
+.toggle-button{
+    position: absolute;
+    top:0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.credentials{
+    background-color: red;
+    border-radius: 8pc;
+    margin-right: 20px;
+}
+.product-image{
+        height: 275px;
+        margin: 15px;
+    }
+main{
+    background: linear-gradient(to left top,#65dfc9,#6cdb66);
+    width: 100%;
+    display: fixed;
+    height: 100%;
+}
+.box{
+   width: 100%;
+   padding: 10px;
+   
+}
+.heading{
+    text-align: center; 
+    margin-top: 20px;
+    background-color: blanchedalmond;
+}
+.numbering{
+    padding: 60px 30px;
+    margin-top: 20px;
+    background: transparent;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .product-image{
+        height: 200px;
+        width: 200px;
+    }
+}

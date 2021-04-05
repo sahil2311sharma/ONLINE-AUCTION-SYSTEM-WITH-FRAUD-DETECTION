@@ -1,0 +1,155 @@
+/*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.block_1{
+    background-color: transparent;
+    height: 753px;
+}
+.images-back{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.header-class{
+    background-color: red;
+    height: 60px;
+    position: relative;
+    top: 40px;
+    padding: 0px;
+    margin: 0px 20px;
+}
+.logo-image-header{
+    margin: 10px 0px;
+    margin-left: 10px;
+    margin-right: 40px;
+    height: 40px;
+}
+.nav-bars-window{
+    background-color: white;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    bottom: 22px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.credentials-signup-signin{
+    position: relative;
+    float: right;
+    bottom: 22px;
+    margin-right: 20px;
+}
+
+h1{
+    display:flexbox;
+    padding: 15px;
+    font-size: 70px;
+    background-color: transparent;
+    font-family: 'Lobster', cursive;
+}*/
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+.brand-title{
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li{
+    list-style: none;
+    
+}
+.navbar-links li a{
+    list-style: none;
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+.navbar-links li:hover{
+    background-color: #555;
+    border-radius: 8pc;
+}
+.toggle-button{
+    position: absolute;
+    top:0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.credentials{
+    background-color: red;
+    border-radius: 8pc;
+    margin-right: 20px;
+}
+@media (max-width: 400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    
+}
+.page-1{
+    font-family: lobster;
+    text-align: center;
+    margin-top: 7.5%;
+    padding: 15px;
+    font-size: 30px;
+    background-color: thistle;
+}
+.block-1{
+    background-color: teal;
+}

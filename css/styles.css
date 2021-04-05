@@ -1,0 +1,35 @@
+*{
+    background-color: goldenrod;
+    margin: 0%;
+    padding: 0%;
+}
+.Main-body{
+    height: 710px;
+    margin: 20px;
+    background-color: aquamarine;
+}
+.content-written{
+    padding: 90px;
+    top: 100px;
+    text-align: center;
+    right: 50%;
+    background-color: aquamarine;
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+h1{
+    padding: 15px;
+    text-align: center;
+    font-size: 70px;
+    background-color: transparent;
+}
+.exploreButton{
+    background-color: white;
+    color: crimson;
+    font-family: monospace;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 20px ;
+    padding-right: 20px;
+}
