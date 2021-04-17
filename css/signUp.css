@@ -5,45 +5,70 @@
     background-color: transparent;
 }
 .whole_page{
-    background-color: aqua;
+    background: rgb(91,200,191);
+background: linear-gradient(90deg, rgba(91,200,191,1) 28%, rgba(134,134,201,1) 68%, rgba(0,212,255,1) 100%);
     height: 100%;
     width: 100%;
     position: absolute;
     padding: 0px 34% ;
 }
 .box_1{
-    background-color: blueviolet ;
+    
     height: 100%;
     padding: 15% 0px;
 }
 .box_2{
-    background-color: burlywood;
     height: 100%;
     padding: 20px;
-
 }
 .box_3{
-    background-color: chartreuse;
     height: 100%;
     text-align: center;
-    padding-top: 50px;
 }
 .box_4{
-    background-color: coral;
+    border-radius: 30px;
+    background-color: white;
     height: 100%;
 }
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
   .whole_page {
     padding: 0%;
   }
   .box_1{
-      padding: 30px 20%;
+      padding: 30% 20%;
   }
 }
+.details_assign{
+    float: left;
+    margin-left: 5%;
+}
+.push_right_float_1{
+    margin-left: 80px;
+}
+.push_right_float_2{
+    margin-left: 62px;
+}
+.push_right_float_3{
+    margin-left: 69px;
+}
+.push_right_float_4{
+    margin-left: 55px;
+}
+.push_right_float_5{
+    margin-left: 31px;
+}
+.push_right_float_6{
+    margin-left: 97.5px;
+}
 h1{
-    background-color:khaki;
+    background-color:transparent;
     display: inline-block;
     padding: 5px 20px;
     margin-bottom: 10px;
     border-radius: 15px;
+}
+.button_submit{
+    background-color: yellowgreen;
+    border-radius: 50px;
+    
 }

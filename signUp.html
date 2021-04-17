@@ -9,75 +9,82 @@
     <link rel="icon" href="favicon/favicon-16x16.png">
     <link rel="stylesheet" href="css/signUp.css">
 </head>
+
 <body>
     <div class="whole_page">
         <div class="box_1">
             <div class="box_2">
                 <div class="box_3">
                     <div class="box_4">
-                        <h1>Sign Up</h1>
+                        <h1
+                            style="margin-bottom: 30px; margin-top: 30px;  font-family:cursive; color: rgba(114, 209, 114, 0.74); text-shadow: green 2px 2px ;">
+                            Create Account</h1>
                         <br>
                         <form action="" method="POST">
                             <div>
-                                Create Assount As :
+                                <b>Create Account As :</b>
                                 <input type="radio" name="user" id="">Buyer
                                 <input type="radio" name="user" id="">Seller
                             </div>
                             <br>
-                            <div>
-                                Enter Your Name
-                                <input type="text" name="" placeholder="First and last name" id="">
+                            <div class="details_assign">
+                                <b>Enter Your Name</b>
+                                <input class="push_right_float_1" style="padding: 2px;" type="text" name=""
+                                    placeholder="First and last name" id="">
                             </div>
                             <br>
-                            <div>
-                                Enter Your Email id
-                                <input type="email" name="" id="" placeholder="example@domain.com">
+                            <br>
+                            <div class="details_assign">
+                                <b>
+                                    Enter Your Email id
+                                </b>
+                                <input class="push_right_float_2" style="padding: 2px;" type="email" name="" id=""
+                                    placeholder="example@domain.com">
                             </div>
                             <br>
-                            <div>
-                                Create a Username
-                                <input type="text" placeholder="username">
+                            <br>
+                            <div class="details_assign">
+                                <b>
+                                    Create a Username
+                                </b>
+                                <input style="padding: 2px;" class="push_right_float_3" type="text"
+                                    placeholder="username">
                             </div>
                             <br>
-                            <div>
-                                Enter Your Password
-                                <input type="password" name="" minlength="6" id="" placeholder="********">
-                            </div>
                             <br>
-                            <div>
-                                Re-Enter Your Password
-                                <input type="password" name="" id="" placeholder="********">
-                            </div>
-                            <br>
-                            <div>
-                                Mobile Number
-                                <input type="text" maxlength="10" placeholder="phone number">
-                            </div>
-                            <br>
-                            <div>
-                                <label>Birthday</label>
-                                <label class="month">
-                                    <select class="select-style" name="BirthMonth">
-                                        <option value="">Month</option>
-                                        <option value="01">January</option>
-                                        <option value="02">February</option>
-                                        <option value="03">March</option>
-                                        <option value="04">April</option>
-                                        <option value="05">May</option>
-                                        <option value="06">June</option>
-                                        <option value="07">July</option>
-                                        <option value="08">August</option>
-                                        <option value="09">September</option>
-                                        <option value="10">October</option>
-                                        <option value="11">November</option>
-                                        <option value="12">December</option>
-                                    </select>
-                                    <label>Day<input maxlength="2" name="BirthDay" placeholder="Day" required=""></label>
-                                    <label>Year <input maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
-                                </label>
+                            <div class="details_assign">
+                                <b>
+                                    Enter Your Password
+                                </b>
+                                <input style="padding: 2px;" class="push_right_float_4" type="password" name=""
+                                    minlength="6" id="" placeholder="********">
                             </div>
                             <br><br>
-                            <button>
+                            <div class="details_assign">
+                                <b>
+                                    Re-Enter Your Password
+                                </b>
+                                <input style="padding: 2px;" class="push_right_float_5" type="password" name="" id=""
+                                    placeholder="********">
+                            </div>
+                            <br><br>
+                            <div class="details_assign">
+                                <b>
+                                    Phone Number
+                                </b>
+                                <input style="padding: 2px;" class="push_right_float_6" type="text" maxlength="10"
+                                    placeholder="Phone number">
+                            </div>
+                            <br><br>
+                            <div class="details_assign">
+                                <b>
+                                    ID Proof no.
+                                </b>
+                                <input class="push_right_float_6" style="padding: 2px; margin-left: 115px;" type="text"
+                                    name="id" placeholder="ID Proof no." required>
+                            </div>
+                            <br><br><br><br>
+                            <button class="button_submit" style=" width: 90%; height: 30px;" name="submitt">
                                 Submit Details
                             </button>
                         </form>
@@ -85,79 +92,8 @@
                     </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
 </body>
+
 </html>
-
-<!--
-    First Name
-    Last Name
-    Phone Number
-    Email id
-    username
-    Password
-    Re-enter Password
-    Address
-    Pancard no
--->
-
-<!--
-<form action="" method="POST">
-            <label for="">Create Account as a</label>
-            <br>
-            <input type="radio" name="user" id="">Buyer
-            <input type="radio" name="user" id="">Seller
-            <br><br>
-            <label for="">
-                Enter Your Name
-            </label>
-            <input type="text" name="" placeholder="First and last name" id="">
-            <br><br>
-            <label for="">
-                Mobile Number
-            </label>
-            <input type="text" placeholder="phone number">
-            <br><br>
-            <label for="">
-                Enter Your Email id
-            </label>
-            <input type="email" name="" id="" placeholder="example@domain.com">
-            <br><br>
-            <label for="">
-                Create a Username
-            </label>
-            <input type="text"placeholder="username">
-            <br><br>
-            <label for="">Enter Your Password</label>
-            <input type="password" name="" id="">
-            <br><br>
-            <label for="">Re-Enter Your Password</label>
-            <input type="password" name="" id="">
-            <br><br>
-            <label>Birthday</label>
-            <label class="month">
-                <select class="select-style" name="BirthMonth">
-                    <option value="">Month</option>
-                    <option value="01">January</option>
-                    <option value="02">February</option>
-                    <option value="03">March</option>
-                    <option value="04">April</option>
-                    <option value="05">May</option>
-                    <option value="06">June</option>
-                    <option value="07">July</option>
-                    <option value="08">August</option>
-                    <option value="09">September</option>
-                    <option value="10">October</option>
-                    <option value="11">November</option>
-                    <option value="12">December</option>
-                </select>
-                <label>Day<input class="birthday" maxlength="2" name="BirthDay" placeholder="Day" required=""></label>
-                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
-            </label>
-            <br><br>
-            <button>
-                Submit Details
-            </button>
-        </form>
--->
